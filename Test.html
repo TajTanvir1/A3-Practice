@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Tailwind & Daisy UI -->
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+   <script src="https://cdn.tailwindcss.com"></script>
+
+   <!-- Customize codes -->
+   <script>
+      tailwind.config = {
+         theme: {
+            extend: {
+               colors: {
+                  clifford: '#da373d',
+               }
+            }
+         }
+      }
+   </script>
+</head>
+
+<body>
+    <div class="">
+        <div class="flex flex-col lg:flex-row lg:gap-6 justify-between">
+            <!-- Program 1 -->
+            <div
+                class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.2)),url(Images/2.png)]  bg-cover rounded-2xl lg:bg-contain bg-no-repeat lg:h-[338px] h-[244px] lg:px-10 px-6 lg:mt-12 mt-6">
+                <h3 class="lg:pt-24 lg:text-[28px] text-xl font-extrabold text-white pt-6">Junior Program</h3>
+                <p class="text-sm mt-4 mb-6 text-white lg:w-[495px]">Junior program is best program for the new junior
+                    player. They can play for learn the playing rules. We suggests junior program for everyone.
+                </p>
+                <a class="btn bg-[#FF4240] text-white px-4 lg:px-6 border-none text-lg lg:text-xl">Register Now!</a>
+            </div>
+            <!-- Program 2 -->
+            <div
+                class="bg-[url(Images/3.png)] bg-cover rounded-2xl lg:bg-contain bg-no-repeat lg:h-[338px] h-[244px] lg:px-10 px-6 lg:mt-12 mt-6">
+                <h3 class="lg:pt-24 lg:text-[28px] text-xl font-extrabold text-white pt-6">Teenager Program</h3>
+                <p class="text-sm mt-4 mb-6 text-white lg:w-[495px]">Teenager is another best program for Teenager
+                    players. They love this very much and this program fill early. You can join our Teenager program.
+                </p>
+                <a class="btn bg-[#FF4240] text-white px-4 lg:px-6 border-none text-lg lg:text-xl">Register Now!</a>
+            </div>
+        </div>
+        <!-- Program 3 -->
+        <div
+            class="bg-[url(Images/4.png)] bg-cover lg:bg-fit rounded-2xl bg-no-repeat lg:h-[450px] h-[244px] lg:px-10 px-6 mt-6">
+            <h3 class="lg:pt-52 lg:text-[28px] text-xl font-extrabold text-white pt-6">
+                Professional Program
+            </h3>
+            <p class="text-sm mt-4 mb-6 text-white lg:w-[495px]">
+                Professional program for the professional players. This program set by the international rules and get
+                best output from this Professional Program.
+            </p>
+            <a class="btn bg-[#FF4240] text-white px-4 lg:px-6 border-none text-lg lg:text-xl">Register Now!</a>
+        </div>
+    </div>
+</body>
+
+</html>
